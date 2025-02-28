@@ -1,11 +1,15 @@
 = Build first LLM from scratch
 
+This repository holds the python scripts of the examples of the book `Build a large language model (from scratch)`
+
 == Setup
 
-Install python3 (3.13.0).
-Create a virtual environment within this project folder with `python3 -m venv .venv`.
+* Install python3 (3.13.0) with your package manager.
+* Create a virtual environment within this project folder with `python3 -m venv .venv`.
+* Source the virtual-environment via `source .venv/bin/activate` within this project folder.
+* Install the necessary dependencies for apple-silicon cpus with `pip3 install --pre torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/nightly/cpu`.
 
-Install the necessary dependencies for apple-silicon cpus with `pip3 install --pre torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/nightly/cpu`.
+== Project structure
 
-
-https://mng.bz/o05v
+* `appendix-a`
+Holds the resources for first steps with pytorch
